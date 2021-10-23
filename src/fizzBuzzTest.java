@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertEquals;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 import org.junit.After;
@@ -21,5 +22,11 @@ public class fizzBuzzTest {
 		FizzBuzz fz = new FizzBuzz();
 		assertEquals(100, fz.getNumbers().length);
 	}
+	
+	@Test
+    public void multipleOfThreeReturnFizz(){
+		FizzBuzz fz = new FizzBuzz();
+        assertEquals(fz.fizzbuzz(3), ("Fizz"));
+    }
 
 }
