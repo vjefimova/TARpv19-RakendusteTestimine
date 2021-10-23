@@ -26,7 +26,13 @@ public class fizzBuzzTest {
 	@Test
     public void multipleOfThreeReturnFizz(){
 		FizzBuzz fz = new FizzBuzz();
-        assertEquals(fz.fizzbuzz(3), ("Fizz"));
+        assertEquals("Fizz", fz.fizzbuzz(3));
     }
+	
+	@Test
+	public void sholdReturnBuzzFor5() {
+		FizzBuzz fz = new FizzBuzz();
+		assertEquals("Buzz", fz.fizzbuzz(5));
+	}
 
 }
