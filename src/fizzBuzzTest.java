@@ -34,5 +34,12 @@ public class fizzBuzzTest {
 		FizzBuzz fz = new FizzBuzz();
 		assertEquals("Buzz", fz.fizzbuzz(5));
 	}
+	
+	
+	@Test
+	public void sholdReturnFizzBuzzForFivteen() {
+		FizzBuzz fz = new FizzBuzz();
+		assertEquals("Fizzbuzz", fz.fizzbuzz(15));
+	}
 
 }
