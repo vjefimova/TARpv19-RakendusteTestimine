@@ -24,46 +24,16 @@ public class fizzBuzzTest {
 	}
 	
 	@Test
-    public void multipleOfThreeReturnFizz(){
-		FizzBuzz fz = new FizzBuzz();
-        assertEquals("Fizz", fz.fizzbuzz(3));
-    }
-	
-	@Test
-	public void sholdReturnBuzzFor5() {
-		FizzBuzz fz = new FizzBuzz();
-		assertEquals("Buzz", fz.fizzbuzz(5));
-	}
-	
-	
-	@Test
-	public void sholdReturnFizzBuzzForFivteen() {
-		FizzBuzz fz = new FizzBuzz();
-		assertEquals("Fizzbuzz", fz.fizzbuzz(15));
-	}
-	
-	@Test
 	public void sholdReturnZero() {
 		FizzBuzz fz = new FizzBuzz();
 		assertEquals("0", fz.fizzbuzz(0));
 	}
 	
 	@Test
-	public void sholdReturnBuzzForTen() {
+    public void multipleOfThreeReturnFizz(){
 		FizzBuzz fz = new FizzBuzz();
-		assertEquals("Buzz",fz.fizzbuzz(10));
-	}
+        assertEquals("Fizz", fz.fizzbuzz(3));
+    }
 	
-	@Test
-	public void sholdReturnFizzForSix() {
-		FizzBuzz fz = new FizzBuzz();
-		assertEquals("Fizz", fz.fizzbuzz(6));
-	}
-	
-	@Test
-	public void sholdReturnBuzzForOneHundred() {
-		FizzBuzz fz = new FizzBuzz();
-		assertEquals("Buzz", fz.fizzbuzz(100));
-	}
 
 }
