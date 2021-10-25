@@ -16,6 +16,10 @@ public class FizzBuzz {
 		if(value == 0){
 			return Integer.toString(value);
 		}
-		return "";
+		else if (value % 3 == 0) {
+			return "Fizz";
+		} else {
+			return Integer.toString(value);
+		}
 	}
 }
